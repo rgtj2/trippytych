@@ -4,4 +4,13 @@
 
 a {
     color: white;
+    cursor: pointer;
+}
+
+.tt-pane-count-selector {
+    padding: 0 1rem;
+}
+
+.tt-pane-count-selector.active {
+    color: green;
 }

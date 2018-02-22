@@ -1,2 +1,5 @@
-<a (click)="showFullScreen()">++</a>
+<a class="tt-show-full-screen" (click)="showFullScreen()">++</a>
+<a class="tt-pane-count-selector" [class.active]="currentCount==='one'" (click)="setCount('one')">1</a>
+<a class="tt-pane-count-selector" [class.active]="currentCount==='two'" (click)="setCount('two')">2</a>
+<a class="tt-pane-count-selector" [class.active]="currentCount==='three'" (click)="setCount('three')">3</a>
 <router-outlet></router-outlet>

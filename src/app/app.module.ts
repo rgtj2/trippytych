@@ -10,6 +10,7 @@ import { environment } from '../environments/environment';
 import { RadialMirrorComponent } from './view-transformations/radial-mirror/radial-mirror.component';
 import { TestVisualizerComponent } from './visuals/test-visualizer/test-visualizer.component';
 import { RouterModule } from '@angular/router';
+import { ServicesModule } from './services/services.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     BrowserModule,
+    ServicesModule,
     RouterModule,
     AppRoutingModule,
     ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
