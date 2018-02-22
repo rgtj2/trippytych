@@ -1,0 +1,7 @@
+:host ::ng-deep app-radial-mirror {
+    height: 100%;
+}
+
+a {
+    color: white;
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Trippytych Visualizer",
+    "short_name": "Trippytych",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "start_url": "/",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "icons": []
+}
